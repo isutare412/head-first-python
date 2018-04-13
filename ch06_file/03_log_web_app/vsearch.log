@@ -1,0 +1,4 @@
+ImmutableMultiDict([('phrase', 'what the fuck'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15|{'a', 'u', 'e'}
+ImmutableMultiDict([('phrase', 'testing...'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15|{'i', 'e'}
+ImmutableMultiDict([('phrase', 'what is it??'), ('letters', 'aeiou')])|127.0.0.1|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15|{'a', 'i'}
+ImmutableMultiDict([('phrase', 'sex'), ('letters', 'aeiou')])|192.168.35.185|Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15|{'e'}
