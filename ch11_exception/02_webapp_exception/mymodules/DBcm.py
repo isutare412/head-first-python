@@ -21,5 +21,5 @@ class UseDatabase:
         self.conn.commit()
         self.cursor.close()
         self.conn.close()
-        if issubclass(exc_type, mysql.connector.Error):
+        if exc_type is not None:
             raise DBError(exc_value)

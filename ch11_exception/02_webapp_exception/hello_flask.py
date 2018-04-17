@@ -58,9 +58,9 @@ def log_request(req: 'flask_request', res: str) -> None:
                 ),
             )
     except DBError as err:
-        print('DB Error: {}'.format(str(err)))
+        print('[log_request] DB Error: {}'.format(str(err)))
     except Exception as err:
-        print('Unhandled Error: {}'.format(str(err)))
+        print('[log_request] Unhandled Error: {}'.format(str(err)))
 
 
 app = Flask(__name__)
@@ -119,9 +119,9 @@ def view_logs() -> 'html':
             log_data=log_rows,
         )
     except DBError as err:
-        print('DB Error: {}'.format(str(err)))
+        print('[view_logs] DB Error: {}'.format(str(err)))
     except Exception as err:
-        print('Unhandled Error: {}'.format(str(err)))
+        print('[view_logs] Unhandled Error: {}'.format(str(err)))
     return 'Error occured... dig logs.'
 
 
